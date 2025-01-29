@@ -104,6 +104,7 @@ export default function Home() {
           ),
           className: " bg-slate-800/90 border border-slate-700/50 text-slate-200",
         });
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
       } catch (err) {
         toast({
           variant: "destructive",
